@@ -7,6 +7,7 @@ GUI for analyzing FMO interaction energies.
  * python 2.7
  * Numpy 1.4
  * Open Babel 2.3.1 (or later) with python bindings
+ * PyQt 4.4 or later
 
 ## Limitations
 
