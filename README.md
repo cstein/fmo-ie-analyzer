@@ -9,9 +9,17 @@ GUI for analyzing FMO interaction energies.
  * Open Babel 2.3.1 (or later) with python bindings
  * PyQt 4.4 or later
 
-## Limitations
+## Use
 
-currently the filenames are hard-coded in the file 'fiewindow.py'
+The program supports the following modes of loading files into the UI.
+
+ * __1 file__
+
+In this mode, _absolute_ interaction energies between fragment pairs are shown loaded from a _single_ file.
+
+ * __2 files__
+
+In this mode, _relative_ interaction energies between fragment pairs are shown loaded from _two_ files. The printed results are FILE2 - FILE1
 
 ## License
 
